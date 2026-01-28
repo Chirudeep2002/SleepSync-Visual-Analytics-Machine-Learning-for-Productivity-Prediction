@@ -6,23 +6,24 @@ SleepSync is an interactive Streamlit-based analytics dashboard that explores th
 
 ## 📌 Features
 
-- Interactive dataset exploration
-- Dynamic filtering by profession and sleep duration
-- Correlation heatmap analysis
-- Machine learning models (Linear Regression & Random Forest)
-- Productivity prediction based on user input
-- Profession similarity detection
-- Sleep health alerts
+- Interactive dataset exploration  
+- Dynamic filtering by profession and sleep duration  
+- Correlation heatmap analysis  
+- Machine learning models (Linear Regression & Random Forest)  
+- Productivity prediction based on user input  
+- Profession similarity detection  
+- Sleep health alerts  
 
 ---
 
 ## 📊 Screenshots
 
-### Dashboard Overview
-![Dashboard](images/1.png)
+### Dataset Analysis Dashboard
+![Dashboard](1.png)
 
-### Productivity Prediction
-![Prediction](images/2.png)
+### Productivity Prediction Page
+![Prediction](2.png)
+
 ---
 
 ## ⚙️ Technologies Used
@@ -38,12 +39,12 @@ SleepSync is an interactive Streamlit-based analytics dashboard that explores th
 
 ## 🚀 How to Run the Project
 
-### 1. Clone or Download Repository
+### 1. Place these files in one folder
 
-Place these files in one folder:
-
-- `app.py`
-- `sleep_productivity_dataset.csv`
+- app.py  
+- sleep_productivity_dataset.csv  
+- 1.png  
+- 2.png  
 
 ---
 
