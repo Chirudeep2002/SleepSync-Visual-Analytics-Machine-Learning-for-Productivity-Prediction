@@ -19,15 +19,10 @@ SleepSync is an interactive Streamlit-based analytics dashboard that explores th
 ## 📊 Screenshots
 
 ### Dashboard Overview
-![Dashboard](images/dashboard.png)
+![Dashboard](images/1.png)
 
 ### Productivity Prediction
-![Prediction](images/prediction.png)
-
-> 📁 Create an `images` folder and place your screenshots as:
-> - `dashboard.png`
-> - `prediction.png`
-
+![Prediction](images/2.png)
 ---
 
 ## ⚙️ Technologies Used
