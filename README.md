@@ -1,54 +1,214 @@
-# 💤 SleepSync: Visual Analytics & ML for Productivity Prediction
+# 🌙 SleepSync AI  
+### AI-Powered Sleep & Productivity Analytics Platform
 
-SleepSync is an interactive Streamlit-based analytics dashboard that explores the relationship between sleep patterns, work hours, and productivity across professions. The project combines data visualization with machine learning models to provide actionable insights and productivity predictions.
+SleepSync AI is an interactive machine learning and visual analytics dashboard that analyzes the relationship between sleep patterns, work habits, and productivity levels across different professions.
 
----
-
-## 📌 Features
-
-- Interactive dataset exploration  
-- Dynamic filtering by profession and sleep duration  
-- Correlation heatmap analysis  
-- Machine learning models (Linear Regression & Random Forest)  
-- Productivity prediction based on user input  
-- Profession similarity detection  
-- Sleep health alerts  
+Built using **Streamlit, Plotly, Scikit-Learn, and XGBoost**, this project combines data visualization, predictive analytics, feature engineering, and AI-driven wellness insights into a modern dark-themed dashboard experience.
 
 ---
 
-## 📊 Screenshots
+# 🚀 Features
 
-### Dataset Analysis Dashboard
-![Dashboard](1.png)
-
-### Productivity Prediction Page
-![Prediction](2.png)
-
----
-
-## ⚙️ Technologies Used
-
-- Python  
-- Streamlit  
-- Pandas & NumPy  
-- Plotly & Matplotlib  
-- Seaborn  
-- Scikit-Learn  
+## 📊 Interactive Data Analytics
+- Dynamic visualizations using Plotly
+- Correlation heatmaps
+- Histograms, scatter plots, box plots, and bar charts
+- Profession-based filtering system
 
 ---
 
-## 🚀 How to Run the Project
+## 🤖 Machine Learning Models
+- Linear Regression
+- Random Forest Regressor
+- XGBoost Regressor
 
-### 1. Place these files in one folder
-
-- app.py  
-- sleep_productivity_dataset.csv  
-- 1.png  
-- 2.png  
+Users can:
+- Train models interactively
+- Compare performance metrics
+- Analyze feature importance
+- Predict productivity levels
 
 ---
 
-### 2. Install Dependencies
+## 🧠 AI Productivity Prediction
+The platform predicts:
+- Productivity Level
+- Burnout Risk
+- Sleep Health Score
+
+Based on:
+- Sleep Duration
+- Work Hours
+- Sleep Debt
+- Recovery Score
+- Sleep Efficiency
+- Work-Life Balance
+
+---
+
+## 🌡️ AI Wellness Insights
+SleepSync AI provides:
+- Productivity risk analysis
+- Burnout detection
+- Sleep health recommendations
+- AI-generated wellness feedback
+
+---
+
+## 🎨 Modern Dashboard UI
+- Fully dark-themed interface
+- Responsive dashboard layout
+- Interactive KPI cards
+- Styled dropdowns and controls
+- Professional analytics experience
+
+---
+
+# 🛠️ Technologies Used
+
+| Category | Technologies |
+|---|---|
+| Frontend/UI | Streamlit |
+| Visualization | Plotly |
+| Machine Learning | Scikit-Learn, XGBoost |
+| Data Processing | Pandas, NumPy |
+| Styling | Custom CSS |
+| Deployment | Streamlit Community Cloud |
+
+---
+
+# 📂 Project Structure
 
 ```bash
-pip install streamlit pandas numpy seaborn matplotlib plotly scikit-learn
+SleepSync-AI/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── sleep_productivity_dataset.csv
+
+```
+
+---
+
+# 📈 Machine Learning Workflow
+
+## Feature Engineering
+Additional engineered features:
+- Sleep Debt
+- Sleep Efficiency
+- Recovery Score
+- Work-Life Balance
+
+---
+
+## Models Implemented
+- Linear Regression
+- Random Forest Regressor
+- XGBoost Regressor
+
+---
+
+## Evaluation Metrics
+- MAE
+- MSE
+- RMSE
+- R² Score
+
+---
+
+
+# ⚙️ Installation
+
+## 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/Chirudeep2002/SleepSync-Visual-Analytics-Machine-Learning-for-Productivity-Prediction.git
+```
+
+---
+
+## 2️⃣ Navigate to Project
+
+```bash
+cd SleepSync-Visual-Analytics-Machine-Learning-for-Productivity-Prediction
+```
+
+---
+
+## 3️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 4️⃣ Run Application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+# 🌐 Deployment
+
+This project can be deployed using:
+
+- Streamlit Community Cloud
+- Render
+- Vercel
+- Hugging Face Spaces
+
+---
+
+# 🔮 Future Improvements
+
+- User Authentication System
+- Real-Time Sleep Tracking Integration
+- Wearable Device Integration
+- AI Chatbot Assistant
+- Advanced Deep Learning Models
+- Mobile Responsive Optimization
+- Real-world Wellness Dataset Integration
+
+---
+
+# 📚 Learning Outcomes
+
+This project demonstrates:
+- Machine Learning Integration
+- Interactive Dashboard Development
+- Data Visualization
+- Feature Engineering
+- Predictive Analytics
+- UI/UX Design
+- Streamlit Development
+- AI-driven Recommendation Systems
+
+---
+
+# 👨‍💻 Authors
+
+### Chirudeep Bandapalli  
+
+---
+
+# ❤️ Acknowledgements
+
+Built using:
+- Streamlit
+- Plotly
+- Scikit-Learn
+- XGBoost
+- Pandas
+- NumPy
+
+---
+
+# ⭐ If you like this project
+
+Give this repository a ⭐ on GitHub!
+
+---
