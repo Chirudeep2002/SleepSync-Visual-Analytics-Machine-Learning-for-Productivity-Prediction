@@ -447,20 +447,20 @@ with tabs[1]:
     if st.button("Generate Plot"):
         if plot_type == "Bar Plot":
             fig = px.bar(df, x=x_axis, y=y_axis, color=x_axis)
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, use_container_width=True,key='1')
         elif plot_type == "Line Plot":
             fig = px.line(df, x=x_axis, y=y_axis, markers=True)
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, use_container_width=True,key='2')
         elif plot_type == "Scatter Plot":
             fig = px.scatter(df, x=x_axis, y=y_axis, color='Profession')
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, use_container_width=True,key='3')
         elif plot_type == "Histogram":
             fig = px.histogram(df, x=x_axis)
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, use_container_width=True,key='4')
         elif plot_type == "Pie Chart":
             pie_col = st.selectbox("Select Column for Pie Chart:", df.columns)
             fig = px.pie(df, names=pie_col)
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, use_container_width=True,key='5')
 
 # --- Tab 3: Filtered Data ---
 with tabs[2]:
@@ -485,20 +485,20 @@ with tabs[2]:
     if st.button("Generate Filtered Data Plot"):
         if plot_type_filtered == "Bar Plot":
             fig = px.bar(filtered_df, x=x_axis_filtered, y=y_axis_filtered, color=x_axis_filtered)
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, use_container_width=True,key='6')
         elif plot_type_filtered == "Line Plot":
             fig = px.line(filtered_df, x=x_axis_filtered, y=y_axis_filtered, markers=True)
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, use_container_width=True,key='7')
         elif plot_type_filtered == "Scatter Plot":
             fig = px.scatter(filtered_df, x=x_axis_filtered, y=y_axis_filtered, color='Profession')
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, use_container_width=True,key='8')
         elif plot_type_filtered == "Histogram":
             fig = px.histogram(filtered_df, x=x_axis_filtered)
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, use_container_width=True,key='9')
         elif plot_type_filtered == "Pie Chart":
             pie_col_filtered = st.selectbox("Select Column for Pie Chart:", filtered_df.columns)
             fig = px.pie(filtered_df, names=pie_col_filtered)
-            st.plotly_chart(fig, use_container_width=True)
+            st.plotly_chart(fig, use_container_width=True,key='10')
 
 # --- Tab 4: Correlation Heatmap ---
 with tabs[3]:
@@ -560,7 +560,8 @@ with tabs[3]:
 
     st.plotly_chart(
     fig,
-    use_container_width=True
+    use_container_width=True,
+    key='11'
     )
 
     fig2 = px.scatter(
@@ -618,7 +619,8 @@ with tabs[3]:
 
     st.plotly_chart(
     fig2,
-    use_container_width=True
+    use_container_width=True,
+    key='12'
     )
     fig3 = px.histogram(
     df,
@@ -669,7 +671,8 @@ with tabs[3]:
 
     st.plotly_chart(
     fig3,
-    use_container_width=True
+    use_container_width=True,
+    key='13'
     )
 
     fig4 = px.box(
@@ -720,7 +723,8 @@ with tabs[3]:
 
     st.plotly_chart(
     fig4,
-    use_container_width=True
+    use_container_width=True,
+    key='14'
     )
 
     corr = df.select_dtypes(include='number').corr()
@@ -772,7 +776,8 @@ with tabs[3]:
 
     st.plotly_chart(
     fig5,
-    use_container_width=True
+    use_container_width=True,
+    key='15'
     )
 
     st.subheader("📋 Correlation Values Table")
@@ -902,7 +907,8 @@ with tabs[4]:
 
             st.plotly_chart(
             fig_importance,
-            use_container_width=True
+            use_container_width=True,
+            key='16'
             )
             col1, col2, col3, col4 = st.columns(4)
 
@@ -1006,7 +1012,8 @@ with tabs[5]:
 
         st.plotly_chart(
         fig_pred,
-        use_container_width=True
+        use_container_width=True,
+        key='17'
     )
 
     # Profession Prediction
@@ -1105,7 +1112,8 @@ with tabs[5]:
 
         st.plotly_chart(
     fig_pred,
-    use_container_width=True
+    use_container_width=True,
+    key='18'
     )
         risk_score = 100 - sleep_score
 
@@ -1140,7 +1148,8 @@ with tabs[5]:
 
         st.plotly_chart(
     fig_risk,
-    use_container_width=True
+    use_container_width=True,
+    key='19'
     )
 
 # --- Tab 7: Conclusion ---
