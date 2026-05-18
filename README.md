@@ -86,9 +86,7 @@ SleepSync-AI/
 ├── requirements.txt
 ├── README.md
 ├── sleep_productivity_dataset.csv
-│
-└── assets/
-    └── screenshots/
+
 ```
 
 ---
