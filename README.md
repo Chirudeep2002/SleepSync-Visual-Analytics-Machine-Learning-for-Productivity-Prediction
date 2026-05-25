@@ -7,6 +7,9 @@ Built using **Streamlit, Plotly, Scikit-Learn, and XGBoost**, this project combi
 
 ---
 
+# Live Demo
+https://sleepsync.streamlit.app/
+
 # 🚀 Features
 
 ## 📊 Interactive Data Analytics
